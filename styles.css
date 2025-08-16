@@ -201,6 +201,76 @@ footer p {
   margin-bottom: 5rem;
 }
 
+/*SOURCES*/
+.srcs-page {
+  background-color: #e6eeff;
+  font-family: 'gadugi', sans-serif;
+  color: #e6eeff;
+  font-size: 18px;
+  padding: 1rem;
+  margin: 0;
+}
+.srcs-nav {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.home-button {
+  display: inline-block;
+  margin: 1rem auto;
+  padding: 0.5rem 1.25rem;
+  background-color: #001a4d;
+  color: #e6eeff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #001a4d;
+}
+.home-button {
+  display: block;
+  width: max-content;
+  margin: 1rem auto;
+}
+
+.home-button:hover {
+  background-color: #e6eeff;
+  color: #001a4d;
+}
+
+.sources-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #001a4d;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 77, 60, 0.15);
+}
+.sources-container h3 {
+  font-size: 1.75rem;
+  color: #e6eeff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.sources-container a {
+  color: #e6eeff;
+  word-break: break-word;
+}
+
+.sources-container ul {
+  margin-top: 0;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+.sources-container p,
+.sources-container li {
+  line-height: 1.5;
+}
+
+
+
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -240,5 +310,18 @@ footer p {
   footer a {
     font-size: 0.9rem;
     text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
   }
 }
