@@ -24,6 +24,12 @@ img {
   display: block;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 h1, h2, h3, p {
   font-size: inherit; /* Inherits from body unless you override */
 }
@@ -146,14 +152,24 @@ main {
 
 .quiz-hero {
     position: relative;
+    width: 100%;
+    overflow: hidden;
     text-align: center;
     color: #001a4d;
+}
+.quiz-pic {
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
 }
 .quiz-pic img {
     width: 100%;
     max-height: 500px;
     display: block;
     object-fit: cover;
+     object-fit: cover;
+    /*object-position: top; /* ensures you see the top of the image */
 }
 .quiz-msg {
     position: absolute;
